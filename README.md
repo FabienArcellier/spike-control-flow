@@ -1,49 +1,30 @@
 ## spike control flow
 
-[![ci](https://github.com/FabienArcellier/blueprint-python3/actions/workflows/main.yml/badge.svg)](https://github.com/FabienArcellier/blueprint-python3/actions/workflows/main.yml)
+[![ci](https://github.com/FabienArcellier/spike-control-flow/actions/workflows/main.yml/badge.svg)](https://github.com/FabienArcellier/spike-control-flow/actions/workflows/main.yml)
 
-experimentation with the control flow library to structure calls for LLMs.
-
-
-## Getting started
-
-1. clone this repository
-
-2. remove .git directory
-
-* [prepare the blueprint to start a new project](./prepare%20the%20blueprint.md)
-
-
-## The latest version
-
-You can find the latest version to ...
-
-```bash
-git clone https://github.com/FabienArcellier/blueprint-python3.git
-```
+experimentation with the control flow library to structure calls for LLMs. The goal is to reproduce documentation experimentation
+of https://controlflow.ai.
 
 ## Usage
 
-You can run the application with the following command
-
 ```bash
-python src/app/main.py
-```
-
-### Run in docker container
-
-You can run this template with docker. The manufactured image can be distributed and used to deploy your application to a production environment.
-
-```bash
-docker-compose build
-docker-compose run app
+python src/app/spike1.py
+python src/app/spike2.py
+python src/app/spike3.py
+python src/app/spike4.py
+python src/app/spike5.py
+python src/app/spike6.py
+python src/app/spike7.py
+python src/app/spike8.py
+python src/app/spike9.py
+python src/app/spike10.py
 ```
 
 ### Run in gitpod
 
 [gitpod](https://www.gitpod.io/) can be used as an IDE. You can load the code inside to try the code.
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/FabienArcellier/blueprint-python3)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/FabienArcellier/spike-control-flow)
 
 ## Developper guideline
 
@@ -67,7 +48,7 @@ Use make to instanciate a python virtual environment in ./venv and freeze
 dependencies version
 
 ```bash
-poetry update update
+poetry update
 ```
 
 ### Activate the python environment
@@ -102,7 +83,7 @@ I have to regularly rebuild it to update dependencies.
 
 MIT License
 
-Copyright (c) 2018-2023 Fabien Arcellier
+Copyright (c) 2018-2025 Fabien Arcellier
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
