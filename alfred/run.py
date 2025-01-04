@@ -1,11 +1,10 @@
 import alfred
 
-@alfred.command("run", help="execute the application")
-def run():
+@alfred.command("shell", help="execute an interactive shell")
+def shell():
     """
     execute the application
 
-    >>> $ alfred run
+    >>> $ alfred shell
     """
-    python = alfred.sh("python", "python should be present")
-    alfred.run(python, ['src/app/main.py'])
+    alfred.run("python src/app/shell.py")
